@@ -17,6 +17,7 @@
 ## Go语言明星应用
 
 * [docker](https://www.docker.com) 开源的应用容器引擎
+* [Etcd](https://coreos.com/etcd/docs/latest/) 分布式键值存储引擎
 * [tidb](https://pingcap.com/index-zh) 新一代开源分布式 NewSQL 数据库 兼容MySQL语法
 * [beego](https://beego.me/)一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架
 
@@ -27,6 +28,7 @@
 * [Go by Example](https://gobyexample.com)
 * [GitHub Awesome Go](https://github.com/avelino/awesome-go)
 * [astaxie build web application with golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+* [Go语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 * [雨痕 Go语言学习笔记](https://github.com/qyuhen/book)
 * [Go并发编程实战](https://github.com/gopcp/example.v2)
 
