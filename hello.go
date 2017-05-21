@@ -17,4 +17,4 @@ func main() {
 	fmt.Print("hello world\n")
 }
 
-//$ go run 01-hello.go
+//$ go run hello.go
