@@ -6,7 +6,7 @@
 
 ## Go语言环境及开发工具
 本人使用开发环境如下：
-* [Github Wiki] (https://github.com/zhuzhenyu/lean-golang/wiki/Mac-Golang-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
+* [Github Wiki](https://github.com/zhuzhenyu/lean-golang/wiki/Mac-Golang-%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
 * OS X EI Capian  10.11.6
 * Golang 1.8.1 [Download](https://golang.org/dl/)
 * Visual Studio Code  1.12.2 [Download](https://code.visualstudio.com/)
