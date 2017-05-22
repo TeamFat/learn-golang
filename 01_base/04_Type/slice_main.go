@@ -87,8 +87,8 @@ func main() {
 	 */
 	var slice5 = make([]int, 20, 20)
 	slice5 = append(slice5, slice3...)         //当append的值是切片的时，请带上...符号
-	fmt.Println("len(slice6) = ", len(slice5)) //len(slice6) =  26
-	fmt.Println("cap(slice6) = ", cap(slice5)) //cap(slice6) =  40 //容量cap不足时将按总需要长度的2倍扩容
+	fmt.Println("len(slice5) = ", len(slice5)) //len(slice5) =  26
+	fmt.Println("cap(slice5) = ", cap(slice5)) //cap(slice5) =  40 //容量cap不足时将按总需要长度的2倍扩容
 	fmt.Println("slice5 ", slice5)             //slice5  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 20 30 40 50 60]
 
 	/**
