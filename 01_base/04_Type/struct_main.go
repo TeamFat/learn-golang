@@ -27,7 +27,7 @@ func older(p1, p2 person) (person, int) {
 }
 
 //struct 匿名字段
-
+// 内置类型, 自定义类型都可以作为匿名字段
 type human struct {
 	name   string
 	age    int
