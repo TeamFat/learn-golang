@@ -64,4 +64,19 @@ func main() {
 	//修改年龄
 	s1.age += 10
 	fmt.Println("age is", s1.age)
+
+	//匿名结构体 - 之间定义并且使用结构体
+	//方式一
+	var user struct{ username, nick string }
+	user.username = "jsser"
+	user.nick = "jsser-nick"
+	fmt.Println("user.username", user.username)
+	//方式二
+	user2 := struct{ username, password string }{"test", "test"}
+	fmt.Println("user2 name", user2.username)
+
+	//方式三
+	user3 := new(struct{ username, password string })
+	user3.username = "test"
+	user3.password = "test"
 }
