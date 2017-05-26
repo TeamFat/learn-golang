@@ -55,6 +55,10 @@ func main() {
 	 */
 	fmt.Println("sumFunc(10, 20) = ", sumFunc(10, 20))
 
+	//可变参数函数
+	total1 := sumNumbers(1, 2, 3, 4, 5)
+	fmt.Printf("1 + 2 + 3 + 4 + 5  = %d\n", total1)
+
 }
 
 /**
@@ -100,6 +104,16 @@ func operate(op1 int, op2 int, bop binaryOperation) (result int, err error) {
 	}
 	//闭包
 	return bop(op1, op2)
+}
+
+//可变参数，最多只能有一个可变参数，可变参数只能放到函数参数的末尾
+// sumNumbers(1,2,3,4,5)
+func sumNumbers(nums ...int) int {
+	total := 0
+	for _, num := range nums {
+		total += num
+	}
+	return total
 }
 
 //$ go run func_main.go
