@@ -17,5 +17,6 @@ func main() {
 	//以上执行结果 - 当有多个defer时， 按照FILO次序进行(First in Last out) 顺序栈方式
 	// before
 	// after
-	// defer
+	// defer2
+	// defer1
 }
