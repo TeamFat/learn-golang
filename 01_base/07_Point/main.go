@@ -1,8 +1,12 @@
 /**
  *	datetime: 2017-05-27
  *  指针
+ *  支持指针类型 *T， 指针的指针 **T， 以及包含包名前缀的*<package>.T
  *  & 取址符， 取变量内存地址
- *  * 取值符， 取变量内存地址对应的值
+ *  * 取值符， 取变量内存地址对应的目标对象
+ *  指针默认值nil, 没有NULL常量
+ *  不支持指针运算，不支持"->"运算符，直接用"." 访问目标成员
+ *
  *
  */
 package main
@@ -43,6 +47,13 @@ func main() {
 		fmt.Println("非空指针")
 	}
 
+	type data struct{ user string }
+
+	d1 := data{user: "jsser"}
+	var p4 *data
+	p4 = &d1
+	fmt.Printf("p4=%p, p4.user=%v\n", p4, p4.user)
+
 }
 
 //$ go run main.go
@@ -52,3 +63,4 @@ func main() {
 // p1变量的值101
 // 指向int的空指针值为0
 // 空指针
+// p4=0xc42000e280, p4.user=jsser
