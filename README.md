@@ -26,6 +26,7 @@
 
 * [Go语言官网](https://golang.org)
 * [Go by Example](https://gobyexample.com)
+* [Go语言圣经（中文版）](http://docs.plhwin.com/gopl-zh/index.html)
 * [GitHub Awesome Go](https://github.com/avelino/awesome-go)
 * [astaxie build web application with golang](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 * [Go语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
