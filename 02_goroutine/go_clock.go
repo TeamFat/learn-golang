@@ -6,6 +6,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"log"
 	"net"
@@ -22,11 +23,12 @@ func main() {
 	for {
 		//接收新的连接，如果没有则阻塞
 		conn, err := listener.Accept()
+		fmt.Println("Client: : ", conn.RemoteAddr())
 		if err != nil {
 			log.Print(err)
 			continue
 		}
-		handleConn(conn)
+		go handleConn(conn) // go并发执行
 	}
 
 }
@@ -41,3 +43,12 @@ func handleConn(c net.Conn) {
 		time.Sleep(time.Second * 1)
 	}
 }
+
+//server: go run go_clock.go
+//client: go run go_netcat.go
+
+//
+// Client: :  127.0.0.1:62367
+// Client: :  127.0.0.1:62563
+// Client: :  127.0.0.1:62585
+//
