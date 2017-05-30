@@ -3,7 +3,7 @@
  * Go提供原生的并发支持，类似协程，被称作goroutine机制
  * 在函数调用语句之前使用go关键字，就可以创建并发执行单元。
  * go并发执行，执行顺序是无序的
- * 当mian函数执行结束时，goroutine还未被运行
+ * 当mian函数执行结束时，goroutine可能还未被运行
  *
  */
 package main
