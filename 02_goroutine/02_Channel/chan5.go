@@ -1,5 +1,6 @@
 /**
  * datetime: 2017-06-03
+ * 单项通道
  */
 package main
 
