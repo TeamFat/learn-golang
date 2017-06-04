@@ -1,6 +1,6 @@
 /**
  * datetime: 2017-05-31
- * channel是有类型的管道, 可以使用channel操作符 <- 对其发送或者接收值
+ * channel是有类型的通道, 可以使用channel操作符 <- 对其发送或者接收值
  * 1. ch <- v 将v发送到channel ch
  * 2. v := <- ch  从ch接收，并且赋值给v
  * 3. 使用make 创建channel
