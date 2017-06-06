@@ -1,8 +1,6 @@
 /**
  * datetime: 2017-06-06
  * strings标准库 - 提供了许多有用的字符串相关函数
- *
- *
  */
 package main
 
