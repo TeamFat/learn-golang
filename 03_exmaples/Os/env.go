@@ -1,7 +1,6 @@
 /**
- *
  * datetime: 2017-06-07
- *
+ * 环境变量操作
  */
 package main
 
