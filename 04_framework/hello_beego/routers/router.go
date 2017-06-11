@@ -28,4 +28,6 @@ func init() {
 		ctx.Output.Body([]byte(json))
 	})
 
+	//admin - router
+
 }
